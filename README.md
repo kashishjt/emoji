@@ -17,3 +17,10 @@ Security consideration is taken care by:
 2) EC2 instance is created by ensuring secured connection by generating key-value pair.
 
 The Job is configured to adhere to CI-CD by triggerring periodic build/deploy every 6 hours as suggested.
+
+The Project was built in a considerably less time,due to limited resources available
+Had there been more time and resource, following things could be worked upon:
+1) Containerization using docker with aws.
+2) Could have tried to deploy this on a different webserver.
+3) Could have deployed the build package on GitHub Repo using "npm run deploy"
+4) Also could implement monitoring of the server using Cloutwatch.
