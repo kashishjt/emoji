@@ -21,7 +21,7 @@ else
 fi
 
 echo "######## BUILD PACKAGE buld.zip HAS BEEN CREATED AND READY TO DEPLOY #########"
-echo "Your application is up and running on http://13.233.80.216:3000"
+echo "Your application is up and running on http://13.126.61.150:3000"
 
 pid=`sudo fuser 3000/tcp`
 if [ -z "$pid" ]
