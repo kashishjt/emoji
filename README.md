@@ -3,11 +3,11 @@ This Project has been built on Amazon EC2(Free Tier) instance.
 
 The added files and its details are :
 1) build.zip :- This is zipped file of package created ,which can be bundled and used to deploy to desired environments.
-2) emoji_deploy.sh :- This is the script used to create package of emoji project and deploy/run, which brings up the emoji-search application on port# 3000 at             URL http://13.233.80.216:3000/
+2) emoji_deploy.sh :- This is the script used to create package of emoji project and deploy/run, which brings up the emoji-search application on port# 3000 at             URL http://13.126.61.150:3000/
 
 Jenkins has been used as CI-CD tool to build and deploy emoji-search application on dev environment, after fetching the code from Git Repository provided.
 
-Jenkins URL :- http://ec2-13-233-80-216.ap-south-1.compute.amazonaws.com:8080/job/ahfarmer_test/
+Jenkins URL :- http://13.126.61.150:8080/job/ahfarmer_test/
 Credentials to login and run the job:
 Username: kashish
 Password: kashish
